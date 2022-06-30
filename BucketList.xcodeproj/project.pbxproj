@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2757A327286DAC970082BB23 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757A326286DAC970082BB23 /* Location.swift */; };
+		2757A32D286E033D0082BB23 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757A32C286E033D0082BB23 /* EditView.swift */; };
 		276CE67427D27CAC003C86A3 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CE67327D27CAC003C86A3 /* BucketListApp.swift */; };
 		276CE67627D27CAC003C86A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CE67527D27CAC003C86A3 /* ContentView.swift */; };
 		276CE67827D27CAD003C86A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276CE67727D27CAD003C86A3 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2757A326286DAC970082BB23 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2757A32C286E033D0082BB23 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		276CE67027D27CAC003C86A3 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276CE67327D27CAC003C86A3 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		276CE67527D27CAC003C86A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2757A328286DACFC0082BB23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				276CE67527D27CAC003C86A3 /* ContentView.swift */,
+				2757A32C286E033D0082BB23 /* EditView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2757A329286DAD010082BB23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2757A326286DAC970082BB23 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		276CE66727D27CAC003C86A3 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +117,9 @@
 		276CE67227D27CAC003C86A3 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				2757A329286DAD010082BB23 /* Model */,
+				2757A328286DACFC0082BB23 /* View */,
 				276CE67327D27CAC003C86A3 /* BucketListApp.swift */,
-				276CE67527D27CAC003C86A3 /* ContentView.swift */,
 				276CE67727D27CAD003C86A3 /* Assets.xcassets */,
 				276CE67927D27CAD003C86A3 /* Preview Content */,
 				276CE69D27D2815E003C86A3 /* README.md */,
@@ -262,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				276CE67627D27CAC003C86A3 /* ContentView.swift in Sources */,
+				2757A327286DAC970082BB23 /* Location.swift in Sources */,
+				2757A32D286E033D0082BB23 /* EditView.swift in Sources */,
 				276CE67427D27CAC003C86A3 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
