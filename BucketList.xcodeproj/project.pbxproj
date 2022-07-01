@@ -10,6 +10,8 @@
 		273D7920286EFD79008A74F8 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D791F286EFD79008A74F8 /* Query.swift */; };
 		273D7922286F00BF008A74F8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D7921286F00BF008A74F8 /* Result.swift */; };
 		273D7924286F00C3008A74F8 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D7923286F00C3008A74F8 /* Page.swift */; };
+		273D7927286F3A52008A74F8 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D7926286F3A52008A74F8 /* ContentView-ViewModel.swift */; };
+		273D792A286F3E30008A74F8 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D7929286F3E30008A74F8 /* FileManager-DocumentsDirectory.swift */; };
 		2757A327286DAC970082BB23 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757A326286DAC970082BB23 /* Location.swift */; };
 		2757A32D286E033D0082BB23 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757A32C286E033D0082BB23 /* EditView.swift */; };
 		276CE67427D27CAC003C86A3 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CE67327D27CAC003C86A3 /* BucketListApp.swift */; };
@@ -43,6 +45,8 @@
 		273D791F286EFD79008A74F8 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
 		273D7921286F00BF008A74F8 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		273D7923286F00C3008A74F8 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		273D7926286F3A52008A74F8 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		273D7929286F3E30008A74F8 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		2757A326286DAC970082BB23 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		2757A32C286E033D0082BB23 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		276CE67027D27CAC003C86A3 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273D7925286F3A49008A74F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				273D7926286F3A52008A74F8 /* ContentView-ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		273D7928286F3E28008A74F8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				273D7929286F3E30008A74F8 /* FileManager-DocumentsDirectory.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		2757A328286DACFC0082BB23 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +146,8 @@
 		276CE67227D27CAC003C86A3 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				273D7928286F3E28008A74F8 /* Extension */,
+				273D7925286F3A49008A74F8 /* ViewModel */,
 				2757A329286DAD010082BB23 /* Model */,
 				2757A328286DACFC0082BB23 /* View */,
 				276CE67327D27CAC003C86A3 /* BucketListApp.swift */,
@@ -292,11 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273D792A286F3E30008A74F8 /* FileManager-DocumentsDirectory.swift in Sources */,
 				273D7922286F00BF008A74F8 /* Result.swift in Sources */,
 				273D7920286EFD79008A74F8 /* Query.swift in Sources */,
 				276CE67627D27CAC003C86A3 /* ContentView.swift in Sources */,
 				2757A327286DAC970082BB23 /* Location.swift in Sources */,
 				273D7924286F00C3008A74F8 /* Page.swift in Sources */,
+				273D7927286F3A52008A74F8 /* ContentView-ViewModel.swift in Sources */,
 				2757A32D286E033D0082BB23 /* EditView.swift in Sources */,
 				276CE67427D27CAC003C86A3 /* BucketListApp.swift in Sources */,
 			);
