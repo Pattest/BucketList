@@ -22,6 +22,7 @@
 		276CE68F27D27CAD003C86A3 /* BucketListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CE68E27D27CAD003C86A3 /* BucketListUITests.swift */; };
 		276CE69127D27CAD003C86A3 /* BucketListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CE69027D27CAD003C86A3 /* BucketListUITestsLaunchTests.swift */; };
 		276CE69E27D2815E003C86A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 276CE69D27D2815E003C86A3 /* README.md */; };
+		27EBE0892873035F00DC3C4D /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EBE0882873035F00DC3C4D /* EditView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		276CE68E27D27CAD003C86A3 /* BucketListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListUITests.swift; sourceTree = "<group>"; };
 		276CE69027D27CAD003C86A3 /* BucketListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		276CE69D27D2815E003C86A3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = BucketList/README.md; sourceTree = SOURCE_ROOT; };
+		27EBE0882873035F00DC3C4D /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				273D7926286F3A52008A74F8 /* ContentView-ViewModel.swift */,
+				27EBE0882873035F00DC3C4D /* EditView-ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				273D792A286F3E30008A74F8 /* FileManager-DocumentsDirectory.swift in Sources */,
 				273D7922286F00BF008A74F8 /* Result.swift in Sources */,
 				273D7920286EFD79008A74F8 /* Query.swift in Sources */,
+				27EBE0892873035F00DC3C4D /* EditView-ViewModel.swift in Sources */,
 				276CE67627D27CAC003C86A3 /* ContentView.swift in Sources */,
 				2757A327286DAC970082BB23 /* Location.swift in Sources */,
 				273D7924286F00C3008A74F8 /* Page.swift in Sources */,

@@ -10,6 +10,7 @@ import LocalAuthentication
 import MapKit
 
 extension ContentView {
+
     @MainActor class ViewModel: ObservableObject {
         @Published var mapRegion = MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 50,
@@ -19,7 +20,8 @@ extension ContentView {
         @Published private(set) var locations: [Location]
         @Published var selectedPlace: Location?
         @Published var isUnlocked: Bool = false
- 
+        @Published var showAlert: Bool = false
+
         let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedPlaces")
 
         init() {
@@ -68,16 +70,16 @@ extension ContentView {
                 let reason = "Please authenticate yourself to unlock your places."
 
                 context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
-                    if success {
-                        Task { @MainActor in
+                    Task { @MainActor in
+                        if success {
                             self.isUnlocked = true
+                        } else {
+                            self.showAlert = true
                         }
-                    } else {
-                        // error
                     }
                 }
             } else {
-                // no biometrics
+                showAlert = true
             }
         }
     }
