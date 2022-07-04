@@ -18,5 +18,5 @@ This project is an application that lets the user build a private list of places
 
 ## Documentation
 
-* [First day of this project](https://www.hackingwithswift.com/100/swiftui/682)
+* [First day of this project](https://www.hackingwithswift.com/100/swiftui/68)
 * [Hacking with Swift](https://www.hackingwithswift.com)
